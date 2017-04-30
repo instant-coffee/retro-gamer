@@ -1,0 +1,22 @@
+{
+  "name": "retro-gamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/instant-coffee/retro-gamer.git",
+  "author": "Lachlan MacKenzie <lachlanrm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "api": "babel-node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
