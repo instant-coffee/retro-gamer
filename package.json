@@ -6,7 +6,9 @@
   "author": "Lachlan MacKenzie <lachlanrm@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "api": "babel-node server.js"
+    "api": "babel-node server.js",
+    "start": "NODE_ENV=development webpack-dev-derver",
+    "build": "NODE_ENV=build webpack"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
