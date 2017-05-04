@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, hashHistory, IndexRoute } from 'react-router';
-import { Home, Welcome, About, Contact } from './components';
+import { Home, Welcome, About, Contact } from './components/index';
 
 // Using hashHistory for easier development
 const routes = (
