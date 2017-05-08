@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 
+# Bundle
+/client/dist/bundle.js
+/client/dist/bundle.js.map
+
 # Runtime data
 pids
 *.pid
@@ -35,3 +39,4 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+.idea/workspace.xml
